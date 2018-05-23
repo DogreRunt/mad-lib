@@ -1,7 +1,7 @@
 function makeStory() {
     // comment out the line below once you're sure this page is properly connected
     // to your HTML file.
-    alert("It works!");
+    // alert("It works!");
 
     // get form values
     var name = document.getElementById('name').value;
