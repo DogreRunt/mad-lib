@@ -33,9 +33,10 @@ function makeStory() {
     var paragraph1 = "Hello, it's " + name + ". I was wondering if after " + number + " years you'd ate my " + food + ". With my only " + condiment + " packet.";
     var paragraph2 = "They say that " + object + " is supposed to heal ya, but I ain't done much healing. Hello, can you " + verb + " me?";
     var paragraph3 = "I'm in " + place + " dreaming about who " + person + " used to be. When " + person + " was younger, and " + adjective + ".";
-    var paragraph4 = "I've forgotten how it felt before the " + noun + " fell at our " + body + ". There's such a difference between " + opposites + " and " + number2 + " " + distance + "."
-    var paragraph5 = "Hello from " + location + ". At least I can say that I've " + verb2 + " to tell you I'm " + adjective2 + " for " + verb3 + " your " + body2 + "."
-    var paragraph6 = "But it don't matter it clearly doesn't " + verb4 + " you apart anymore."
+    var paragraph4 = "I've forgotten how it felt before the " + noun + " fell at our " + body + "."
+    var paragraph5 = "There's such a difference between " + opposites + " and " + number2 + " " + distance + ". Hello from " + location + "."
+    var paragraph6 = "At least I can say that I've " + verb2 + " to tell you I'm " + adjective2 + " for " + verb3 + " your " + body2 + "."
+    var paragraph7 = "But it don't matter it clearly doesn't " + verb4 + " you apart anymore."
 
     // Display story.
     document.getElementById('one').innerHTML = paragraph1;
@@ -44,5 +45,6 @@ function makeStory() {
     document.getElementById('four').innerHTML = paragraph4;
     document.getElementById('five').innerHTML = paragraph5;
     document.getElementById('six').innerHTML = paragraph6;
+    document.getElementById('seven').innerHTML = paragraph7;
 
 }

@@ -1,11 +1,11 @@
 body {
-    background-color: #CCCCCC;
+    background-color: #ff9;
+    font-family: 'Shadows Into Light Two', 'Caveat', cursive;
     padding: 2%;
 }
 
 h1 {
-    border-bottom: 3px solid #888888;
-    font-family: sans-serif;
+    border-bottom: 3px solid #47efff;
     font-size: 30px;
     margin: 0 0 20px 0;
     padding-bottom: 5px;
@@ -13,12 +13,11 @@ h1 {
 }
 
 h2 {
-    font-family: sans-serif;
-    text-align: center;    
+    text-align: center;
 }
 
 p {
-
+  font-size: 20px;
 }
 
 p.instructions {
@@ -26,8 +25,8 @@ p.instructions {
 }
 
 div {
-    background-color: #FFFFFF;
-    border: 3px solid #888888;
+    background-color: #ffb190;
+    border: 3px solid #47efff;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     float: left;
@@ -35,6 +34,7 @@ div {
 }
 
 div.data {
+    background-color: #ffbe61;
     margin-right: 2%;
     width: 25%
 }
